@@ -1,0 +1,56 @@
+.event-demo {
+  width: min(42rem, calc(100% - 2rem));
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.event-demo h1 {
+  font-size: 2.25rem;
+}
+
+.event-demo section {
+  margin: 2rem 0;
+}
+
+.color-box {
+  display: grid;
+  min-height: 8rem;
+  place-items: center;
+  margin: 1rem 0;
+  border: 1px solid #94a3b8;
+  border-radius: 0.5rem;
+  color: #1e293b;
+  cursor: pointer;
+  transition: background-color 150ms ease-in-out;
+}
+
+.event-demo label {
+  display: block;
+  margin: 0.75rem 0 0.25rem;
+}
+
+.event-demo input {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 24rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #94a3b8;
+  border-radius: 0.3rem;
+  font: inherit;
+}
+
+.event-demo button {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.55rem 1rem;
+  border: 0;
+  border-radius: 0.3rem;
+  background: #2563eb;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.event-demo button:hover {
+  background: #1d4ed8;
+}

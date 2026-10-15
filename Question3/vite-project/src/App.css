@@ -1,0 +1,85 @@
+.registration {
+  width: min(32rem, calc(100% - 2rem));
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.registration h1 {
+  font-size: 2.25rem;
+}
+
+.registration-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--text-h);
+}
+
+.form-field input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.35rem;
+  background: var(--bg);
+  color: var(--text-h);
+  font: inherit;
+}
+
+.form-field input[aria-invalid='true'] {
+  border-color: #dc2626;
+}
+
+.field-error {
+  margin-top: 0.25rem;
+  color: #b91c1c;
+  font-size: 0.875rem;
+}
+
+.registration-form button {
+  justify-self: start;
+  padding: 0.65rem 1.25rem;
+  border: 0;
+  border-radius: 0.35rem;
+  background: #2563eb;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.registration-form button:hover {
+  background: #1d4ed8;
+}
+
+.submission-success {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #86efac;
+  border-radius: 0.5rem;
+  background: #f0fdf4;
+  color: #14532d;
+}
+
+.submission-success h2 {
+  margin-bottom: 0.75rem;
+}
+
+.submission-success dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.35rem 1rem;
+  margin: 0;
+}
+
+.submission-success dt {
+  font-weight: 600;
+}
+
+.submission-success dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
